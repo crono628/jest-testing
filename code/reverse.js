@@ -1,3 +1,5 @@
 function reverse(str) {
-  return capitalize(str.split('').reverse().join(''));
+  return str.split('').reverse().join('');
 }
+
+module.exports = reverse;

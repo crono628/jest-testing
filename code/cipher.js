@@ -6,3 +6,5 @@ function cipher(str) {
   );
   return (newHold = String.fromCharCode(...newArr));
 }
+
+module.exports = cipher;
